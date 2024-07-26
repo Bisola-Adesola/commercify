@@ -53,4 +53,4 @@ jobs:
 
       - name: Deploy to ECS
         run: |
-          aws ecs update-service --cluster commercify-cluster --service commercify --force-new-deploymentsp
+          aws ecs update-service --cluster commercify-cluster --service commercify --force-new-deployment
